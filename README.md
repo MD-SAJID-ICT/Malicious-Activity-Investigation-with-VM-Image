@@ -66,7 +66,7 @@
       </ul>
     </li>
      <li>
-      <a href="#4-analysis-process-&-artefacts">Analysis Process & Artefacts</a>
+      <a href="#4-analysis-process--artefacts">Analysis Process & Artefacts</a>
       <ul>
         <li><a href="#41-suspected-user">Suspected user</a></li>
         <li><a href="#42-suspicious-activity">Suspicious Activity</a></li>
@@ -76,7 +76,7 @@
     </li>
     <li><a href="#5-the-toolkit">The Toolkit</a></li>
     <li>
-    <a href="#6-personal-reflection">Personal Reflection</a>
+    <a href="#6-probable-mitigation">Probable Mitigation</a>
     </li>
     <li>
     <a href="#contact">Contact</a>
@@ -177,17 +177,12 @@ investigation.
 
 ## 2.2 references
 
-According to Casey (2011), the Digital Investigation Process Model (DIPM) proposes a six-step process 
-for conducting digital investigations.<br>
+According to Casey (2011), the Digital Investigation Process Model (DIPM) proposes a six-step process for conducting digital investigations.<br>
 <b>Reference List:</b><br>
-Casey, E. (2011). Digital Evidence and Computer Crime: Forensic Science, Computers, and the 
-Internet. Academic Press.<br>
-Baryamureeba, V., & Tushabe, F. (2011). Cyber forensic investigation framework. International Journal 
-of Cyber-Security and Digital Forensics, 1(1), 23-35.<br>
-Casey, E. (2011). Digital evidence and computer crime: forensic science, computers and the Internet. 
-Academic Press.<br>
-Quick, D., Choo, K. K. R., & Hock, G. C. (2014). Digital investigation process model. Digital 
-Investigation, 11(4), 306-315.
+Casey, E. (2011). Digital Evidence and Computer Crime: Forensic Science, Computers, and the Internet. Academic Press.<br>
+Baryamureeba, V., & Tushabe, F. (2011). Cyber forensic investigation framework. International Journal of Cyber-Security and Digital Forensics, 1(1), 23-35.<br>
+Casey, E. (2011). Digital evidence and computer crime: forensic science, computers and the Internet. Academic Press.<br>
+Quick, D., Choo, K. K. R., & Hock, G. C. (2014). Digital investigation process model. Digital Investigation, 11(4), 306-315.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -197,8 +192,7 @@ Investigation, 11(4), 306-315.
 
 ## 3.1 Details of the Evidence File
 
-On the "Autopy" Digital Forensics program, I find the entire directory tree and other files after 
-exporting the given VM.
+On the "Autopy" Digital Forensics program, I find the entire directory tree and other files after exporting the given VM.
 <p align="center">
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/Run%20by%20autopsy.png">
 </p>
@@ -226,8 +220,7 @@ On /home directory there have a user and the username is “enkidu”
  
 ## 4.2 Suspicious Activity
 
-In Archives-1([2016]) there have three suspicious E-Mail Messages which are come from “John 
-Snow” to the local user. 
+In Archives-1([2016]) there have three suspicious E-Mail Messages which are come from “John Snow” to the local user. <br>
 Email address: enjohnsnow2016@gmail.com
 
 ### 4.2.1 1st Suspicious mail
@@ -236,8 +229,7 @@ Email address: enjohnsnow2016@gmail.com
   <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/Email%20of%20john%20snow%20to%20user.png">
   </p>
   
-Here, it is clear that the suspect John Snow sent the local user some instructions for running the 
-<b>"autoexec.bat"<b> file.<br>
+Here, it is clear that the suspect John Snow sent the local user some instructions for running the <b>"autoexec.bat"<b> file.<br>
 
 ### 4.2.2 Suspicious files
   
@@ -298,8 +290,7 @@ Here also do a scan using "HybridAnalysis" another internet application. Additio
 
 ### 4.2.6 3rd Suspicious mail
 
-Here, confirm that "John Snow" has instructed you in this email to use a VPN to get around the 
-company's IDS.<br>
+Here, confirm that "John Snow" has instructed you in this email to use a VPN to get around the company's IDS.<br>
 Here, the suspect also makes reference to the "TOR project" which is a VPN substitute. Thus, by starting this project, the local user is also able to go through the firewall and IDS of the corporation.<br>
 The url of this tor project: https://www.torproject.org/
 
@@ -414,30 +405,14 @@ Table of Toolkits
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
- <!-- 6. Personal Reflection -->
- # 6. Personal Reflection
+ <!-- 6. Probable Mitigation -->
+ # 6. Probable Mitigation
  
- ## 6.1 Student 
- 
- <b>6.1.1 Reflection</b><br><br>
-Child Protection Policy is very need in this time. Digital crime is the most common factors for
-this time & child can easily the target by the social media. <br>
- 
- <b>6.1.2 Strengths/major contributions to the group</b><br><br>
- 
- Completed the full Project on Child Protection Digital Crime Scenario make and Investigation on this. <br>
- 
- <b>6.1.3 What you found enjoyable</b><br><br>
- 
- Data Encryption for Data Hiding. Most of Steganography Techniques Like morse and the other section is sign language.<br>
- 
- <b>6.1.4 What was challenging</b><br><br>
- 
- File Signeture Mismathce checking and Correction. <br>
- 
- <b>6.1.5 Technical challenges and outcomes</b><br><br>
- 
- Encase Forensics Imager is not free version, is premium. I am use Access Data FTK Imager for create the crime scenario evidence .E01 file. That was techniqal challenge for me. The outcome is it can be done easily by Encase Forensics but that is not available in every section like Not Open Source. So Its need to be Open source file. <br>
+  ● Execute the command "NetworkManager state is now CONNECTED_LOCAL" instead of "NetworkManager state is now CONNECTED_GLOBAL".<br>
+  ● Kill the process of "autoexec.bat".<br>
+  ● Kill the process of "not.bat".<br>
+  ● Uninstall the "Tor project".<br>
+  ● Delete all suspicious file from registry.
   
   <p align="right">(<a href="#top">back to top</a>)</p>
 
