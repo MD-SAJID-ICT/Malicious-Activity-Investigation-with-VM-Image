@@ -44,46 +44,42 @@
       </ul>
     </li>
     <li>
-      <a href="[#overview-of-the-project](https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image#1-overview-of-the-case)">OVERVIEW OF THE CASE</a>
+      <a href="#1-overview-of-the-case">OVERVIEW OF THE CASE</a>
       <ul>
-        <li><a href="#required-findings">Required Findings</a></li>
-        <li><a href="#installation">Timeline of The Key Evidence</a></li>
-        <li><a href="#installation">Details of the offenders, victims and witnesses</a></li>
-        <li><a href="#installation">Photographs of any physical evidence, clues or supplemental material</a></li>
-        <li><a href="#installation">Scenario Rules</a></li>
+        <li><a href="#11-required-findings">Required Findings</a></li>
+        <li><a href="#12-acceptable-internet-use-policy-for-ubb">Acceptable Internet use policy for UBB</a></li>
+        <li><a href="#13-unacceptable-behaviour">Unacceptable behaviour</a></li>
       </ul>
     </li>
      <li>
-      <a href="#getting-started">LEGISLATION ANALYSIS</a>
+      <a href="#2-literature-review">Literature review</a>
       <ul>
-        <li><a href="#prerequisites">Legislation</a></li>
-        <li><a href="#installation">Points to prove</a></li>
-        <li><a href="#installation">What the Digital Forensics case can prove</a></li>
-        <li><a href="#installation">What the Digital Forensics case will not prove</a></li>
-        <li><a href="#installation">Highlight any artefacts that undermine the prosecution’s case</a></li>
+        <li><a href="#21-critical-discussion">Critical Discussion</a></li>
+        <li><a href="#22-references">References</a></li>
       </ul>
     </li>
      <li>
-      <a href="#getting-started">EVIDENCE FILE</a>
+      <a href="#3-evidence-file">Evidence File</a>
       <ul>
-        <li><a href="#prerequisites">Details of the Evidence File</a></li>
-        <li><a href="#installation">Hash value of the Evidence File</a></li>
+        <li><a href="#31-details-of-the-evidence-file">Details of the Evidence File</a></li>
+        <li><a href="#32-hash-value-of-the-evidence-file">Hash value of the Evidence File</a></li>
       </ul>
     </li>
      <li>
-      <a href="#getting-started">ARTEFACTS</a>
+      <a href="#4-analysis-process-&-artefacts">Analysis Process & Artefacts</a>
       <ul>
-        <li><a href="#prerequisites">Summary of Artefacts</a></li>
-        <li><a href="#installation">Data Recovery Artefacts</a></li>
-        <li><a href="#installation">Data Hiding Artefacts</a></li>
+        <li><a href="#41-suspected-user">Suspected user</a></li>
+        <li><a href="#42-suspicious-activity">Suspicious Activity</a></li>
+        <li><a href="#43-log-files-analysis">Log files Analysis</a></li>
+        <li><a href="#44-suspicious-web-history">Suspicious web history</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">SUPPORTING MATERIAL</a></li>
+    <li><a href="#5-the-toolkit">The Toolkit</a></li>
     <li>
-    <a href="#usage">PERSONAL REFLECTION</a>
-    <ul>
-        <li><a href="#prerequisites">Student</a></li>
-      </ul>
+    <a href="#6-personal-reflection">Personal Reflection</a>
+    </li>
+    <li>
+    <a href="#contact">Contact</a>
     </li>
   </ol>
 </details>
@@ -91,42 +87,22 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
-You are part of a team working for Z-Security, an elite digital forensics company in the UK that was invited 
-to investigate a recent security incident involving suspected criminal activities taking place in a medium sized company called UBB.
-You have been hired to physically investigate some of the affected assets, while other Z-Security team 
-members were assigned similar tasks in order to reduce the overall investigation time. As part of your 
-role, you will be asked to prepare an appropriate digital forensics toolkit together with a Digital Forensics 
-Investigation (DFI) model to facilitate your investigation tasks. Any legal interface between law 
-enforcement and this organisation is also a component to be evaluated as part of your assignment.
+You are part of a team working for Z-Security, an elite digital forensics company in the UK that was invited to investigate a recent security incident involving suspected criminal activities taking place in a medium sized company called UBB. You have been hired to physically investigate some of the affected assets, while other Z-Security team members were assigned similar tasks in order to reduce the overall investigation time. As part of your role, you will be asked to prepare an appropriate digital forensics toolkit together with a Digital Forensics Investigation (DFI) model to facilitate your investigation tasks. Any legal interface between law enforcement and this organisation is also a component to be evaluated as part of your assignment.
 
-<b>The incident(s):</b> Network administrators at UBB identified unusual P2P and encrypted traffic that is rarely 
-needed to support their business processes. An early investigation of some of their system logs confirmed 
-suspicious connections some of which bypassed their firewall rules. Alice, a senior ICT manager with 
-reasonable incident response training was keen to keep all the machines attached to the suspected 
-subnet running while he sent an urgent request for Z-Security to start an investigation (based on an 
-Incident Response contract between the two parties).
-Bob’s decision was significantly encouraged by recent reports showing further incidents in the company, 
-in particular, an increased number of staff accounts being accessed from unusual locations inside and 
-outside the company. This has raised concerns of the possibility of an insider attack or inappropriate 
-behaviour and misuse of the company’s infrastructure.
+<b>The incident(s):</b> Network administrators at UBB identified unusual P2P and encrypted traffic that is rarely needed to support their business processes. An early investigation of some of their system logs confirmed suspicious connections some of which bypassed their firewall rules. Alice, a senior ICT manager with reasonable incident response training was keen to keep all the machines attached to the suspected subnet running while he sent an urgent request for Z-Security to start an investigation (based on an Incident Response contract between the two parties). Bob’s decision was significantly encouraged by recent reports showing further incidents in the company, in particular, an increased number of staff accounts being accessed from unusual locations inside and outside the company. This has raised concerns of the possibility of an insider attack or inappropriate behaviour and misuse of the company’s infrastructure.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-### Built With
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- 1. Overview of the Case -->
-## 1. Overview of the Case
+# 1. Overview of the Case
 
-### 1.1 Required Findings
+## 1.1 Required Findings
 
 ● An early investigation of some of their system logs confirmed suspicious connections some of 
 which bypassed their firewall rules.<br>
@@ -136,7 +112,7 @@ outside the company.<br>
 ● You must discover, document and forensically report any two actions performed on the seized 
 device in violation of UBB’s Acceptable Use Policy .
 
-### 1.2 Acceptable Internet use policy for UBB
+## 1.2 Acceptable Internet use policy for UBB
 
 UBB has a policy for the use of the internet whereby employees must ensure that they:<br>
 ● comply with current legislation.<br>
@@ -161,7 +137,8 @@ publishing format.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- 2. Literature review -->
-## 2. Literature review
+# 2. Literature review
+
 Digital investigation process models provide a structured approach to investigating digital crimes and 
 incidents. The Digital Investigation Process Model (DIPM) developed by Quick, Choo, and Hock 
 (2014) is a widely cited model that consists of four phases: identification, preservation, analysis, and 
@@ -177,7 +154,7 @@ preservation, analysis, and reporting of digital evidence. The SIM, on the other
 emphasizes scientific principles and proposes a four-stage process for conducting scientific 
 investigations. These stages include hypothesis generation, data collection, analysis, and conclusion.
 
-## 2.1 Points to prove
+## 2.1 Critical Discussion
 
 It is worth noting that while these models are essential in guiding the digital investigation process, there 
 is no one-size-fits-all model for all investigations. The suitability of each model is dependent on the 
@@ -199,6 +176,7 @@ investigations, but it is important to use them critically and adapt them to sui
 investigation.
 
 ## 2.2 references
+
 According to Casey (2011), the Digital Investigation Process Model (DIPM) proposes a six-step process 
 for conducting digital investigations.<br>
 <b>Reference List:</b><br>
@@ -215,14 +193,16 @@ Investigation, 11(4), 306-315.
 
 
 <!-- 3. Evidence File -->
-## 3. Evidence File
+# 3. Evidence File
 
 ## 3.1 Details of the Evidence File
+
 On the "Autopy" Digital Forensics program, I find the entire directory tree and other files after 
 exporting the given VM.
 <p align="center">
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/Run%20by%20autopsy.png">
 </p>
+
 ## 3.2 Hash value of the Evidence File
 
 <p align="center">
@@ -232,10 +212,12 @@ exporting the given VM.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- 4. Artefacts -->
+<!-- 4. Analysis Process & Artefacts -->
 
-## 4. Analysis Process
+# 4. Analysis Process & Artefacts
+
 ## 4.1 Suspected user
+
 On /home directory there have a user and the username is “enkidu”
 
 <p align="center">
@@ -243,11 +225,13 @@ On /home directory there have a user and the username is “enkidu”
   </p>
  
 ## 4.2 Suspicious Activity
+
 In Archives-1([2016]) there have three suspicious E-Mail Messages which are come from “John 
 Snow” to the local user. 
 Email address: enjohnsnow2016@gmail.com
 
-## 4.2.1 1st Suspicious mail
+### 4.2.1 1st Suspicious mail
+
 <p align="center">
   <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/Email%20of%20john%20snow%20to%20user.png">
   </p>
@@ -255,14 +239,15 @@ Email address: enjohnsnow2016@gmail.com
 Here, it is clear that the suspect John Snow sent the local user some instructions for running the 
 <b>"autoexec.bat"<b> file.<br>
 
-## 4.2.2 Suspicious files
+### 4.2.2 Suspicious files
+  
 Additionally, in there locate the <b>"autoexec.bat"</b> file in the VM's <b>/home/Documents</b> directory.
 
   
   <p align="center">
   <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/suspicious%20bat%20file.png">
-  </p>
-Three bat files are displayed here: <b>"autoexec.bat", "maker.bat" and "not.bat"</b>. The autoexec.bat and not.bat scripts are identical.
+  </p><br>
+Three bat files are displayed here: <b>"autoexec.bat", "maker.bat" and "not.bat"</b>. The autoexec.bat and not.bat scripts are identical.<br>
 
   <p align="center">
   <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/script%20of%20that%20file.png">
@@ -272,7 +257,8 @@ Three bat files are displayed here: <b>"autoexec.bat", "maker.bat" and "not.bat"
   </p>
 It is guaranteed that these files are run automatically after clicking them thanks to our analysis of the scripts. Furthermore, it will undermine the system.
 
-## 4.2.3 Virustotal scan
+### 4.2.3 Virustotal scan
+  
 Here, export these two bat files and do a virus check using the website "Virustotal".
 
  <p align="center">
@@ -286,7 +272,8 @@ Here, export these two bat files and do a virus check using the website "Virusto
 The files "autoexec.bat" and "not.bat" are "Trojan" according to the virus total tool.
 
 
-## 4.2.4 HybridAnalysis scan
+### 4.2.4 HybridAnalysis scan
+  
 Here also do a scan using "HybridAnalysis" another internet application. Additionally, they identify both files as malicious.
 
 <p align="center">
@@ -299,7 +286,7 @@ Here also do a scan using "HybridAnalysis" another internet application. Additio
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/Hybrid%20analysis%20not.png">
 </p>
 
-## 4.2.5 2nd Suspicious mail
+### 4.2.5 2nd Suspicious mail
 
 "John Snow" instructs the local user enkidu to use the VPN in this email.
 
@@ -309,7 +296,7 @@ Here also do a scan using "HybridAnalysis" another internet application. Additio
 </p>
 <p align="center">
 
-## 4.2.6 3rd Suspicious mail
+### 4.2.6 3rd Suspicious mail
 
 Here, confirm that "John Snow" has instructed you in this email to use a VPN to get around the 
 company's IDS.<br>
@@ -319,7 +306,7 @@ The url of this tor project: https://www.torproject.org/
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/IDS%20bypass%20email.png">
 </p>
 
-## 4.2.6 3rd Suspicious Tor Project
+### 4.2.7 Suspicious Tor Project
 
 Here, also find this torproject on <b>/home/enkidu/.tor-browser-en/INSTALL/Browser/profile.default/extension/tor-launcher@torproject.org.xpi</b>
 
@@ -338,7 +325,7 @@ There have some important log files in <b>/var/log/</b> directory.
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/importent%20log%20file.png">
 </p>
 
-## 4.3.1 Evidence of launching tor project
+### 4.3.1 Evidence of launching tor project
 
 After exporting all log files and after analyzing all logs, find proof of launching the tor project. And I found these evidence on Syslog file.
 
@@ -359,7 +346,7 @@ After exporting all log files and after analyzing all logs, find proof of launch
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/tor%20project%20on%20tor%20log.png">
 </p>
 
-## 4.3.2 Evidence of Outside staff on the local Network
+### 4.3.2 Evidence of Outside staff on the local Network
 
 There also find out the reason for outside staff being accessed on the local network. And find it after analyzing the Syslog.
 
@@ -369,7 +356,7 @@ There also find out the reason for outside staff being accessed on the local net
 </p>
 Here is the status of the network, <b>“NetworkManager state is now CONNECTED_GLOBAL”</b>. So any staff outside can access the company’s network.
 
-## 4.3.3 Evidence of Violating Acceptable internet use policy for UBB
+### 4.3.3 Evidence of Violating Acceptable internet use policy for UBB
 
 Other suspicious activity which violates the “Acceptable internet use policy for UBB” or satisfies “Unacceptable behavior”.<br>
 
@@ -403,9 +390,11 @@ Here, also find Suspicious web history where the user search for keylogger:
 
 <img src="https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image/blob/master/images/71f5131284d26584e54bae026e9020d6.png">
 </p>
+  
+  <p align="right">(<a href="#top">back to top</a>)</p>
  
  <!-- 5. The Toolkit -->
- ## 5. The Toolkit 
+ # 5. The Toolkit 
  
 
 
@@ -422,9 +411,11 @@ Here, also find Suspicious web history where the user search for keylogger:
 Table of Toolkits
   </p>
   
+  <p align="right">(<a href="#top">back to top</a>)</p>
+  
   
  <!-- 6. Personal Reflection -->
- ## 6. Personal Reflection
+ # 6. Personal Reflection
  
  ## 6.1 Student 
  
@@ -447,9 +438,11 @@ this time & child can easily the target by the social media. <br>
  <b>6.1.5 Technical challenges and outcomes</b><br><br>
  
  Encase Forensics Imager is not free version, is premium. I am use Access Data FTK Imager for create the crime scenario evidence .E01 file. That was techniqal challenge for me. The outcome is it can be done easily by Encase Forensics but that is not available in every section like Not Open Source. So Its need to be Open source file. <br>
+  
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
+# Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -467,7 +460,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+# License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
@@ -476,11 +469,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+# Contact
 
-Tareq Raihan - [@My_Linkedin](https://www.linkedin.com/in/tareqraihan926/) - tareqhasan926ice@gmail.com
+  <b>Md Zahid Hossain Sajid</b> - [@My_Linkedin](https://www.linkedin.com/in/md-zahid-hossain-sajid-85bbab185/) - zahidhossainsajid@gmail.com
 
-Project Link: [https://github.com/tareqraihan926/Digital-Forensics-Cyber-Crime-Investigations](https://github.com/tareqraihan926/Digital-Forensics-Cyber-Crime-Investigations)
+Project Link: [https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image](https://github.com/MD-SAJID-ICT/Malicious-Activity-Investigation-with-VM-Image)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
